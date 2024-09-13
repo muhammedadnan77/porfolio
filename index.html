@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/9a741c2c03.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <img src="./logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- <img class="background-image" src="./WhatsApp Image 2024-05-19 at 16.52.25_858ce9ad.jpg" alt=""> -->
+            </nav>
+            <div class="headertext">
+                <p>
+                    Front end Developer
+                </p>
+                <br>
+                <h1>Hi, I'm <span>adnan</span></h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------about-------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="aboutpic" src="./final profile.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitile" >About Me</h1>
+                    <p> Ambitious,career-focused job seaker,anxious to obtain an enrty-level software devolper 
+                        position to help launch career while achieving goals.
+                        Dedicated student intersted in apllying excelent communication and interpersonal skills to a 
+                        software developer role.Can quickly memorize product details and build customer realationships.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <!-- <p class="tab-links">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>
+                                Desingning web</li>
+                            <li><span>Javascript</span><br>
+                            Building responsive websites </li>
+                            <li><span>React js</span><br>
+                                single paged websites</li>
+                                <li><span>Node js</span><br>
+                                Javascript runtime environment</li>
+                                <li><span>MongoDB</span><br>
+                                    Databases</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>
+                                Desingning web</li>
+                            <li><span>Javascript</span><br>
+                            Building responsive websites </li>
+                            <li><span>React js</span><br>
+                                single paged websites</li>
+                                <li><span>MongoDB</span><br>
+                                    Databases</li>
+                        </ul>
+                    </div>   -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>COLLEGE</span><br>
+                                BCA,Mahe Co-operative of Technology and Education.Pondicherry University</li>
+                            <li><span>SCHOOL</span><br>
+                            S.G.M.A alake,Manglore </li>
+                            <li><span>HIGHER SECONDARY</span><br>
+                                Chothavoor higher secondary college,champad,Kerala</li>
+                                <li><span>COURSES</span></li>
+                                <!-- <li><span>MongoDB</span><br>
+                                    Databases</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------services-------------- -->
+
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code" style="color: #74C0FC;"></i>
+                                    <h2>web development</h2>
+                    <p> Code the frontend of a website,
+                        Bring the Web Designer's Design to life using HTML javascript and CSS,
+                        Ensuring responsive design
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react" style="color: #74C0FC;"></i>
+                    <h2>React development</h2>
+                    <p>React allows us to create large web applications that use data which can change over time, without reloading the page. Its main goal is to be fast, simple and scalable..</p>
+                    <a href="#">Learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-brands fa-app-store-ios" style="color: #74C0FC;"></i>
+                    <h2>App designing</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- -----------------------portfolio----------------------- -->
+<div id="portfolio">
+    <div class="container">
+     <h1 class="sub-title">My work</h1>
+     <div class="work-list">
+        <div class="work">
+            <div>
+               <img src="./img1.png" alt="">
+               <div class="layer1">
+                <h3><span1>Netflix</span1>
+                    <p class="pfo">movies,web series and many more entertainment package  </p>
+                    <a href="http://127.0.0.1:5502/netflix.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </h3>
+               </div>
+            </div>
+            <div>
+                <img src="./img2.png.jpg" alt="">
+                <div class="layer2">
+                    <h3><span1>Porsche</span1> 
+                        <p class="pfo">Choose and style ur dream Car and be part of our porsche fam </p>
+                        <a href="http://127.0.0.1:5501/porsche.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </h3>
+                   </div>
+             </div> 
+             <div>
+                <img src="./imag3.png.jpg" alt="">
+                <div class="layer3">
+                    <h3><span1>Spotify</span1>
+                        <p class="pfo">listen free non-stop music with no ads </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </h3>
+                   </div>
+             </div>
+        </div>
+     </div>
+     
+    </div>
+</div>
+<!-----------------------contact------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> adnanafzz2535@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 7559933054</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+               <button  class="btn"> <a href="./MUHAMMED ADNAN interview updated.pdf" download>Download CV</a></button>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message" ></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © 2024 adnan.</p>
+
+    </div>
+</div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+       
+    </script>
+</body>
+</html>
