@@ -17,16 +17,18 @@
         <div class="container">
             <nav>
                 <img src="./logo.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark"  onclick="closeMenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 <!-- <img class="background-image" src="./WhatsApp Image 2024-05-19 at 16.52.25_858ce9ad.jpg" alt=""> -->
             </nav>
-            <div class="headertext">
+            <div class="headertext" >
                 <p>
                     Front end Developer
                 </p>
@@ -92,6 +94,7 @@
                                 <li><span>COURSES</span><br>
                                 MERN fullstack from jspiders,banglore <br>
                             core java from jspiders,banglore</li>
+
                                 <!-- <li><span>MongoDB</span><br>
                                     Databases</li> -->
                         </ul>
@@ -220,7 +223,22 @@
             document.getElementById(tabname).classList.add("active-tab")
         }
 
+
        
+    </script>
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu")
+
+        function openmenu(){
+          sidemenu.style.right="0";
+
+        }
+        function closeMenu(){
+          sidemenu.style.right="-200px";
+            
+        }
+        
     </script>
 </body>
 </html>
