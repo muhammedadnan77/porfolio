@@ -1,2 +1,2 @@
 # porfolio
-portfolio to showcase my skill
+portfolio for my qualification and skills
